@@ -45,7 +45,7 @@ function tad_idioms_form($sn = '')
     //$op="replace_tad_idioms";
 
 
-    $FormValidator = new FormValidator("#myForm", true);
+    $FormValidator = new FormValidator('#myForm', true);
     $FormValidator->render();
 
     $xoopsTpl->assign('op', 'tad_idioms_form');
